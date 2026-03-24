@@ -1,0 +1,20 @@
+gmail-analytics-snowflake/
+├── README.md
+├── sql/
+│   ├── 01_setup_database.sql
+│   ├── 02_create_tables.sql
+│   ├── 03_create_analytics_views.sql
+│   ├── 04_create_intelligence_views.sql
+│   ├── 05_gmail_security_setup.sql
+│   └── 06_verification_queries.sql
+├── procedures/
+│   ├── generate_synthetic_data.sql
+│   ├── deploy_analytics_dashboard.sql
+│   └── deploy_intelligence_hub.sql
+├── streamlit/
+│   ├── analytics_dashboard.py
+│   └── intelligence_hub.py
+├── python/
+│   ├── gmail_to_snowflake.py
+│   └── requirements.txt
+└── .gitignore
